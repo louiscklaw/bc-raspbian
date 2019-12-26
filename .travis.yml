@@ -31,8 +31,7 @@ addons:
     - openssl
 
 script:
-  - hostname
-  # - sudo ./build.sh
+  - sudo ./build.sh
 
 before_deploy:
   # Workaround for https://github.com/travis-ci/dpl/issues/542
